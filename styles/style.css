@@ -27,28 +27,41 @@ html {
     justify-content: center;
 }
 
-.top-card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--white);
-}
-
-.title-top-card {
-    color: var(--cyan);
-}
-
-.subtitle-top-card {
-    color: var(--bright-yellow);
-}
-
 .main-card {
     width: 640px;
     height: 475px;
 }
 
+.top-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 40px;
+    padding-top: 45px;
+    padding-right: 80px;
+}
+
+.title-top-card {
+    color: var(--cyan);
+    margin-bottom: 35px;
+}
+
+.subtitle-top-card {
+    color: var(--bright-yellow);
+    margin-bottom: 20px;
+}
+
+.txt-top-card {
+    margin-bottom: 45px;
+    font-size: 12px;
+}
+
 .bottom-card {
     display: flex;
     flex-direction: row;
+
 }
 
 .bottom-card-one {
@@ -57,6 +70,40 @@ html {
     gap: 30px;
     width: 320px;
     background-color: var(--cyan);
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-bottom: 45px;
+    border-bottom-left-radius: 10px;
+    color: var(--white);
+}
+
+.txt-card-one {
+    font-size: 18px;
+}
+
+.txt-card-one-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+}
+
+.txt-card-one-decoration {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.signup {
+    height: auto;
+    width: 235px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--bright-yellow);
 }
 
 .bottom-card-two {
@@ -66,6 +113,20 @@ html {
     width: 320px;
     background-color: var(--cyan);
     opacity: 85%;
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-bottom: 45px;
+    border-bottom-right-radius: 10px;
+}
+
+.title-card-two {
+    color: var(--white);
+}
+
+.txt-card-two {
+    color: var(--white);
+    font-weight: 400;
+    width: 70%;
 }
 
 footer {
