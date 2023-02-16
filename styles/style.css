@@ -6,6 +6,7 @@
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
     --white: hsl(100, 100%, 100%);
+    --shadow: hsl(0, 0%, 0%);
     --background: #E6EFF6;
 }
 
@@ -30,6 +31,7 @@ html {
 .main-card {
     width: 640px;
     height: 475px;
+    padding-bottom: 45px;
 }
 
 .top-card {
@@ -61,7 +63,6 @@ html {
 .bottom-card {
     display: flex;
     flex-direction: row;
-
 }
 
 .bottom-card-one {
